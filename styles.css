@@ -19,6 +19,11 @@
 }
 
 body{
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position: left -262px top -236px, right -304px bottom -300px;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed, fixed;
+    background-size: contain, contain;
     font-size: 1.125rem;
     font-family: var(--font);
     height: 100vh;
@@ -85,6 +90,9 @@ body{
 
 .name-wrapper .place{
     color: var(--color-Darkgray);
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 .name span{
     font-weight: 400;
@@ -107,6 +115,7 @@ body{
     font-weight: 400;
     font-size: .8rem;
     color: var(--color-Darkgray);
+    margin-top: .5rem;
 }
 
 
